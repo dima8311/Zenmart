@@ -1,4 +1,7 @@
 /* header */
+:root {
+    --font: "Jost";
+  }
 
 .home_page {
   padding-bottom: 60px;
@@ -22,7 +25,7 @@
 
 .container .category_top span {
   color: rgb(4, 30, 66);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 28px;
   font-weight: 500;
   line-height: 40px;
@@ -31,7 +34,7 @@
 
 .container .category_top a {
   color: rgb(4, 30, 66);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 500;
   line-height: 22px;
@@ -154,7 +157,7 @@
   box-shadow: 0px 5px 20px rgb(0, 83, 246, 0.1);
   border-radius: 6px;
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 500px;
   font-size: 15px;
@@ -175,7 +178,7 @@
 
 .container .product_content_box .product_title {
   color: rgb(98, 105, 116);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 13px;
   font-weight: 400;
   line-height: 22px;
@@ -188,7 +191,7 @@
   margin-top: 7px;
   height: 56px;
   color: rgb(4, 30, 66);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 16px;
   font-weight: 500;
   line-height: 28px;
@@ -203,7 +206,7 @@
   align-items: center;
 
   color: rgb(98, 105, 116);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 14px;
   font-weight: 400;
   line-height: 22px;
@@ -224,7 +227,7 @@
 
 .container .price_box strong {
   color: rgb(4, 30, 66);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 18px;
   font-weight: 500;
   line-height: 26px;
@@ -234,7 +237,7 @@
 .container .price_box span {
   margin-left: 10px;
   color: rgb(98, 105, 116);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 14px;
   font-weight: 400;
   line-height: 22px;
@@ -287,7 +290,7 @@
   background: rgb(245, 195, 75);
 
   color: rgb(4, 30, 66);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 13px;
   font-weight: 500;
   line-height: 22px;
@@ -298,7 +301,7 @@
   margin-top: 10px;
   width: 428px;
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 400px;
   font-size: 60px;
@@ -308,7 +311,7 @@
 
 .header_frame .header_content p {
   margin-top: 10px;
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 400px;
   font-size: 16px;
@@ -328,9 +331,9 @@
   background-color: #ffffff;
   border-radius: 6px;
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
-  font-weight: 600px;
+  font-weight: 600;
   font-size: 15px;
   line-height: 22px;
 
@@ -371,18 +374,18 @@
 .header_frame .box_left span {
   color: rgb(0, 83, 246);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 22px;
   font-style: normal;
 }
 
 .header_frame .box_left p {
   margin: 10px 0;
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 26px;
   line-height: 38px;
 
@@ -390,9 +393,9 @@
 }
 
 .header_frame .box_left a {
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 15px;
   line-height: 22px;
 
@@ -447,7 +450,7 @@
 
 .service_frame .service_content span {
   color: rgb(4, 30, 66);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 16px;
   font-weight: 500;
   line-height: 28px;
@@ -455,7 +458,7 @@
 
 .service_frame .service_content p {
   color: rgb(98, 105, 116);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
@@ -493,7 +496,7 @@
 
 .shop_category_frame .category_top span {
   color: rgb(4, 30, 66);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 28px;
   font-weight: 500;
   line-height: 40px;
@@ -502,7 +505,7 @@
  .container .category_top a {
   margin-left: 30px;
   color: rgb(4, 30, 66);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 500;
   line-height: 22px;
@@ -548,7 +551,7 @@
 .shop_category_frame .category_box span {
   margin-top: 15px;
   color: rgb(4, 30, 66);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 16px;
   font-weight: 500;
   line-height: 28px;
@@ -607,7 +610,7 @@
   justify-content: center;
 
   color: rgb(0, 83, 246);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 18px;
   font-weight: 500;
   line-height: 26px;
@@ -664,7 +667,7 @@
 
  .spec_product_frame .big_product_content span {
   color: rgb(4, 30, 66);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
@@ -673,7 +676,7 @@
  .spec_product_frame .big_product_content p {
   margin: 7px 0;
   color: rgb(4, 30, 66);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 26px;
   font-weight: 500;
   line-height: 38px;
@@ -681,7 +684,7 @@
 
  .spec_product_frame .big_product_content a {
   color: rgb(4, 30, 66);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 500;
   line-height: 22px;
@@ -729,7 +732,7 @@
 
 .spec_product_frame .small_product_content strong {
   color: rgb(4, 30, 66);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 16px;
   font-weight: 500;
   line-height: 28px;
@@ -737,7 +740,7 @@
 
 .spec_product_frame .small_product_content span {
   color: rgb(98, 105, 116);
-font-family: Jost;
+font-family: var(--font);
 font-size: 13px;
 font-weight: 400;
 line-height: 22px;
@@ -852,7 +855,7 @@ text-align: left;
   .event_frame .event_content_box .event_title {
     color: rgb(255, 255, 255);
     
-    font-family: Jost;
+    font-family: var(--font);
     font-size: 28px;
     font-weight: 500;
     line-height: 40px;
@@ -874,7 +877,7 @@ text-align: left;
 
   .event_frame .timer_box strong {
    color: rgb(255, 255, 255);
-   font-family: Jost;
+   font-family: var(--font);
    font-size: 28px;
    font-weight: 500;
    line-height: 40px;
@@ -883,7 +886,7 @@ text-align: left;
 
   .event_frame .timer_box span {
     color: rgb(255, 255, 255);
-    font-family: Jost;
+    font-family: var(--font);
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
@@ -906,7 +909,7 @@ text-align: left;
 
     background: rgb(245, 195, 75);
 
-    font-family: Jost;
+    font-family: var(--font);
     font-size: 15px;
     font-weight: 500;
     line-height: 22px;
@@ -954,423 +957,8 @@ text-align: left;
 
      }
 
-     /* Footer Frama */
+     
 
-     .home_page .footer_frame {
-    position: relative;
-    
-    width: 100%;
-    height: 507px;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-
-    background: rgb(243, 245, 246);
-  }
-
-  .footer_frame .container {
-    flex-direction: column;
-    
-  }
-
-  .container .content_boxes {
-    margin-top: 90px;
-    width: 100%;
-    height: 246px;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .content_boxes .contact_box {
-    width: 285px;
-    height: 194px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-  }
-
-  .contact_box strong {
-    color: rgb(4, 30, 66);
-    font-family: Jost;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 26px;
-    
-  }
-
-  .contact_box .phone_box {
-    width: 100%;
-    height: 54px;
-
-    display: flex;
-    flex-direction: row;
-  }
-
-  .contact_box .phone_box img {
-    width: 32px;
-    height: 27px;
-  }
-
-  .phone_box .phone_box_desc {
-    margin-left: 30px;
-  }
-
-.phone_box .phone_box_desc span {
-   color: rgb(4, 30, 66);
-   font-family: Jost;
-   font-size: 15px;
-   font-weight: 500;
-   line-height: 22px;
-
-}
-
-.phone_box .phone_box_desc p {
-   color: rgb(4, 30, 66);
-   font-family: Jost;
-   font-size: 15px;
-   font-weight: 400;
-   line-height: 22px;
-   
-}
-  
-.contact_box .mail_box {
-    width: 100%;
-    height: 54px;
-
-    display: flex;
-    flex-direction: row;
-  }
-
-  .contact_box .mail_box img {
-    width: 32px;
-    height: 27px;
-  }
-
-  .mail_box .mail_box_desc {
-    margin-left: 30px;
-  }
-
-.mail_box .mail_box_desc span {
-   color: rgb(4, 30, 66);
-   font-family: Jost;
-   font-size: 15px;
-   font-weight: 500;
-   line-height: 22px;
-
-}
-
-.mail_box .mail_box_desc p {
-   color: rgb(4, 30, 66);
-   font-family: Jost;
-   font-size: 15px;
-   font-weight: 400;
-   line-height: 22px;
-   
-}
-
-.content_boxes .customer_box {
-  width: 193px;
-  height: 246px;
-
-  display: flex;
-  flex-direction: column;
-}
-
-.customer_box .customer_box_title {
-  color: rgb(4, 30, 66);
-  font-family: Jost;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 26px;
-letter-spacing: 0%;
-text-align: left
-}
-
-.customer_box .support_types {
-  margin-top: 20px;
-  width: 165px;
-  height: 200px;
-   display: flex;
-   flex-direction: column;
-   justify-content: space-around;
-}
-
-.customer_box .support_types span {
-  color: rgb(4, 30, 66);
-  font-family: Jost;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 40px;
-
-}
-
-
-.content_boxes .service_box {
-  width: 193px;
-  height: 246px;
-
-  display: flex;
-  flex-direction: column;
-}
-
-.service_box .service_box_title {
-  color: rgb(4, 30, 66);
-  font-family: Jost;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 26px;
-letter-spacing: 0%;
-text-align: left
-}
-
-.service_box .service_types {
-  margin-top: 20px;
-  width: 165px;
-  height: 200px;
-   display: flex;
-   flex-direction: column;
-   justify-content: space-around;
-}
-
-.service_box .service_types span {
-  color: rgb(4, 30, 66);
-  font-family: Jost;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 40px;
-
-}
-   
-.content_boxes .followus_boxes .followus_box {
-  width: 160px;
-  height: 61px;
-  
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-  
-  .followus_box .followus_title {
-    color: rgb(4, 30, 66);
-    font-family: Jost;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 26px;
-    letter-spacing: 0%;
-    text-align: left;
-  }
-
-.followus_box .followus_box_img {
-  width: 154px;
-  height: 15px;
-
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-}
-
-.followus_box .followus_box_img img {
-  width: 15px;
-  height: 15px;
-}
-  .followus_box_img strong {
-    color: rgb(4, 30, 66);
-    font-family: Font Awesome 5 Brands;
-    font-size: 14px;
-    font-weight: 1500;
-    line-height: 16px;
-    
-
-  }
-
-  .content_boxes .followus_boxes .mobileapps_box {
-    margin-top: 30px;
-    width: 163px;
-    height: 116px;
-
-    display: flex;
-    flex-direction: column;
-  }
-
-  .mobileapps_box .mobileapps_box_title {
-    margin-bottom: 10px;
-    width: 154px;
-    height: 26px;
-
-    color: rgb(4, 30, 66);
-    font-family: Jost;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 26px;
-   }
-
-   .mobileapps_box .ios_box {
-     display: flex;
-     flex-direction: row;
-   }
-
-   .mobileapps_box .ios_box span {
-     margin-left: 20px;
-
-     color: rgb(4, 30, 66);
-     font-family: Jost;
-     font-size: 14px;
-     font-weight: 400;
-     line-height: 40px;
-
-   }
-
-   .mobileapps_box .android_box span {
-     margin-left: 20px;
-
-     color: rgb(4, 30, 66);
-     font-family: Jost;
-     font-size: 14px;
-     font-weight: 400;
-     line-height: 40px;
-   }
-
-
-   .content_boxes .weaccept_box {
-    margin-top: 136px;
-    margin-right: 60px;
-    width: 270px;
-    height: 70px;
-
-    display: flex;
-    flex-direction: column;
-    
-   }
-
-   .weaccept_box .weaccept_box_title {
-    color: rgb(4, 30, 66);
-    font-family: Jost;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 26px;
-
-   }
-
-
-.weaccept_box .weaccept_box_img {
-  margin-top: 20px;
-  width: 100%;
-  height: 24px;
-
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.container .bottom_box {
-  
-  margin-top: 90px;
-  width: 100%;
-  height: auto;
-
-  display: flex;
-  flex-direction: row;
-  
-  border-top: 1px solid rgb(234, 234, 234);;
-
-  /* background-color: aqua; */
-}
-
-.bottom_box .left_middle_content {
-  margin-top: 20px;
-  width: auto;
-  height: auto;
-
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  /* background-color: antiquewhite; */
-}
-
-.left_middle_content .left_content {
-  width: 230px;
-  height: 40px;
-  
-  color: rgb(4, 30, 66);
-  font-family: Jost;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 40px;
-  /* background-color: chartreuse; */
-  }
-
-
-.left_middle_content .middle_content {
-  margin-left: 70px;
-  width: 550px;
-  height: 40px;
-  color: rgb(4, 30, 66);
-  font-family: Jost;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 40px;
-  /* background-color: rgb(137, 137, 230); */
-
-}
-
-.bottom_box .right_content_box {
-  margin-top: 20px;
-  margin-left: 30px;
-  width: 380px;
-  height: auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  
-
-  /* background-color: brown; */
-}
-
-.right_content_box .rigth_content .select_currency_box {
-  
-  width: 180px;
-  height: 40px;
-  padding: 10px 20px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-
-  border: 1px solid rgb(234, 234, 234);
-  border-radius: 6px;
-  background: rgb(255, 255, 255);
-  box-sizing: border-box;
-}
-
-.rigth_content .select_currency_box span {
-  color: rgb(98, 105, 116);
-  font-family: Jost;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 40px;
-
-}
-
-.rigth_content .select_currency_box select {
-  width: 70px;
-  
-  margin-left: 20px;
-  border: none;
-  outline: none;
-  background: none;
-  cursor: pointer;
-
-  color: rgb(4, 30, 66);
-  font-family: Jost;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 40px;
-
-}
 
 
 

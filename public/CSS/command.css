@@ -1,27 +1,31 @@
-   html,
-   body {
-    margin: 0;
-    padding: 0;
-   }
+:root {
+  --font: "Jost";
+}
 
-   a {
-    text-decoration: none;
-   }
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
 
-   p {
-    margin: 0%;
-   }
+a {
+  text-decoration: none;
+}
 
-   .container {
+p {
+  margin: 0%;
+}
+
+.container {
   position: relative;
   width: 1320px;
   height: auto;
   display: flex;
-   }
+}
 
-   /* Navbar Frame */
+/* Navbar Frame */
 
-   .navbar_frame {
+.navbar_frame {
   position: relative;
   width: 100%;
   height: 145px;
@@ -34,7 +38,7 @@
 .navbar_frame .container {
   padding: 20px 0px 14px;
   flex-direction: column;
-  }
+}
 
 .navbar_frame .navbar_top {
   width: 100%;
@@ -70,7 +74,7 @@
   align-items: center;
 }
 
- .navbar_frame .search_box .category_list {
+.navbar_frame .search_box .category_list {
   width: 166px;
   height: 30px;
   display: flex;
@@ -79,13 +83,13 @@
   border-right: 2px solid rgb(214, 214, 214);
 }
 
- .navbar_frame .category_list select {
+.navbar_frame .category_list select {
   width: 140px;
   height: 30px;
   border: none;
   outline: none;
   color: rgb(4, 30, 66);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
@@ -100,7 +104,7 @@
   border: none;
   outline: none;
   color: rgb(98, 105, 116);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
@@ -130,8 +134,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  }
-
+}
 
 .navbar_frame .nav_top_menu .top_menu_box {
   display: flex;
@@ -165,7 +168,7 @@
 
 .navbar_frame .box_info_box span {
   color: rgb(255, 255, 255);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 13px;
   font-weight: 400;
   line-height: 22px;
@@ -175,7 +178,7 @@
 
 .navbar_frame .box_info_box strong {
   color: rgb(255, 255, 255);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 16px;
   font-weight: 400;
   line-height: 22px;
@@ -195,9 +198,9 @@
   border-radius: 50;
 
   background-color: yellow;
-  font-family: Jost;
+  font-family: var(--font);
   color: rgb(11, 30, 64);
-  font-family: Inter;
+  font-family: var(--font);
   font-size: 8px;
   font-weight: 700;
   line-height: 10px;
@@ -213,7 +216,7 @@
   display: flex;
   flex-direction: row;
   border-top: 1px solid #5746a1;
-  }
+}
 
 .navbar_frame .navbar_bott .navbar_bott_menu_box {
   margin-top: 10px;
@@ -221,8 +224,7 @@
   height: auto;
   display: flex;
   flex-direction: row;
-  }
-
+}
 
 .navbar_frame .navbar_bott_menu_box .browse_box {
   width: 185px;
@@ -241,10 +243,10 @@
 
 .navbar_frame .browse_box span {
   color: rgb(255, 255, 255);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 16px;
   font-weight: 400;
-  line-height: 28px;=
+  line-height: 28px;
   letter-spacing: 0%;
   text-align: left;
 }
@@ -267,7 +269,7 @@
 
 .navbar_frame .router_menu a {
   color: rgb(255, 255, 255);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -283,20 +285,412 @@
   width: 473px;
   display: flex;
   flex-direction: row;
-  justify-content:center;
-  gap: 19px;
-  
+  justify-content: center;
+  gap: 10px;
 }
 
 .navbar_frame .sorting_menu span {
   margin-left: 20px;
   color: rgb(255, 255, 255);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 28px;
   letter-spacing: 0%;
 }
 
 /* header */
 
+/* Footer Frame */
+
+.footer_frame {
+  position: relative;
+
+  width: 100%;
+  height: 507px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  background: rgb(243, 245, 246);
+}
+
+.footer_frame .container {
+  flex-direction: column;
+}
+
+.container .content_boxes {
+  margin-top: 90px;
+  width: 100%;
+  height: 246px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.content_boxes .contact_box {
+  width: 285px;
+  height: 194px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contact_box strong {
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.contact_box .phone_box {
+  width: 100%;
+  height: 54px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.contact_box .phone_box img {
+  width: 32px;
+  height: 27px;
+}
+
+.phone_box .phone_box_desc {
+  margin-left: 30px;
+}
+
+.phone_box .phone_box_desc span {
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.phone_box .phone_box_desc p {
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.contact_box .mail_box {
+  width: 100%;
+  height: 54px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.contact_box .mail_box img {
+  width: 32px;
+  height: 27px;
+}
+
+.mail_box .mail_box_desc {
+  margin-left: 30px;
+}
+
+.mail_box .mail_box_desc span {
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.mail_box .mail_box_desc p {
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.content_boxes .customer_box {
+  width: 193px;
+  height: 246px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.customer_box .customer_box_title {
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.customer_box .support_types {
+  margin-top: 20px;
+  width: 165px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.customer_box .support_types span {
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.content_boxes .service_box {
+  width: 193px;
+  height: 246px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.service_box .service_box_title {
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.service_box .service_types {
+  margin-top: 20px;
+  width: 165px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.service_box .service_types span {
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.content_boxes .followus_boxes .followus_box {
+  width: 160px;
+  height: 61px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.followus_box .followus_title {
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.followus_box .followus_box_img {
+  width: 154px;
+  height: 15px;
+
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.followus_box .followus_box_img img {
+  width: 15px;
+  height: 15px;
+}
+.followus_box_img strong {
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 14px;
+  font-weight: 1500;
+  line-height: 16px;
+}
+
+.content_boxes .followus_boxes .mobileapps_box {
+  margin-top: 30px;
+  width: 163px;
+  height: 116px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.mobileapps_box .mobileapps_box_title {
+  margin-bottom: 10px;
+  width: 154px;
+  height: 26px;
+
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.mobileapps_box .ios_box {
+  display: flex;
+  flex-direction: row;
+}
+
+.mobileapps_box .ios_box span {
+  margin-left: 20px;
+
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.mobileapps_box .android_box span {
+  margin-left: 20px;
+
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.content_boxes .weaccept_box {
+  margin-top: 136px;
+  margin-right: 60px;
+  width: 270px;
+  height: 70px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.weaccept_box .weaccept_box_title {
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.weaccept_box .weaccept_box_img {
+  margin-top: 20px;
+  width: 100%;
+  height: 24px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container .bottom_box {
+  margin-top: 90px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+
+  border-top: 1px solid rgb(234, 234, 234);
+
+  /* background-color: aqua; */
+}
+
+.bottom_box .left_middle_content {
+  margin-top: 20px;
+  width: auto;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* background-color: antiquewhite; */
+}
+
+.left_middle_content .left_content {
+  width: 230px;
+  height: 40px;
+
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 40px;
+  /* background-color: chartreuse; */
+}
+
+.left_middle_content .middle_content {
+  margin-left: 70px;
+  width: 550px;
+  height: 40px;
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 40px;
+  /* background-color: rgb(137, 137, 230); */
+}
+
+.bottom_box .right_content_box {
+  margin-top: 20px;
+  margin-left: 30px;
+  width: 380px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  /* background-color: brown; */
+}
+
+.right_content_box .rigth_content .select_currency_box {
+  width: 180px;
+  height: 40px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  border: 1px solid rgb(234, 234, 234);
+  border-radius: 6px;
+  background: rgb(255, 255, 255);
+  box-sizing: border-box;
+}
+
+.rigth_content .select_currency_box span {
+  color: rgb(98, 105, 116);
+  font-family: var(--font);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.rigth_content .select_currency_box select {
+  width: 70px;
+
+  margin-left: 20px;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 40px;
+}
