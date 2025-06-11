@@ -6,6 +6,8 @@ html,
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
+  overflow-y: auto;
 }
 
 a {
@@ -571,7 +573,7 @@ p {
 
 .content_boxes .weaccept_box {
   margin-top: 136px;
-  margin-right: 60px;
+  margin-right: 20px;
   width: 270px;
   height: 70px;
 
@@ -694,3 +696,38 @@ p {
   font-weight: 400;
   line-height: 40px;
 }
+
+/* Page Router */
+
+.shop_page .container .router_box {
+    margin-top: 20px;
+    width: 1320px;
+    height: 22px;
+
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.container .router_box span {
+    color: rgb(4, 30, 66);
+    font-family: var(--font);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.router_box span.drop {
+    margin: 0px 10px;
+}
+ .router_box span.active {
+   font-family: var(--font);
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 22px;
+
+   color: #626974;
+ }
+
+
