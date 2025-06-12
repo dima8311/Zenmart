@@ -719,7 +719,7 @@
   box-sizing: border-box; 
 
   border-radius: 6px;
-  background: rgb(243, 245, 246);'
+  background: rgb(243, 245, 246);
  }
 
  .spec_product_frame .small_product_box:nth-child(odd) {
